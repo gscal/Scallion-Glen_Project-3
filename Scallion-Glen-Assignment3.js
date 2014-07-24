@@ -71,3 +71,10 @@ if( confirm( "Help us! Look there and tell us if there are storm clouds approach
 	}
 
 console.log( "Sooner rather, than later, The skull of that" + Beast + " will sit on my wall at " + myCastle +", and serve a trophy of triumph!" );
+
+var handleData = function (json) {
+    for (var i = 0; < json.friends.length; i++){
+        var friend = json.friends [i];
+        console.log ("User ID: " + friend.uuid + ", Name: " + friend.name + ", Age: " + frind.age);
+    };
+};
