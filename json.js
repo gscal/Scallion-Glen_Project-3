@@ -15,6 +15,7 @@ var json = {
 };
 for (var key in json.friends) {
 	var friend = json.friends[key];
+	console.log("We must verify candidates Class, name and Age. The younger the better, but we need to know who they are and what skills they possess.")
 	//friend.age
 };
 
